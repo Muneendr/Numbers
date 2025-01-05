@@ -1,0 +1,8 @@
+class Main {
+    public static void main(String[] args) {
+        String bin = "1100110";
+        int decimal = Integer.parseInt(bin,2);
+        String octal = Integer.toOctalString(decimal);
+        System.out.println(octal);
+    }
+}
